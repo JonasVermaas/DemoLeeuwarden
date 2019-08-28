@@ -23,3 +23,4 @@ val Start : State = state(Interaction) {
         furhat.ask("Hallo daar. Vind je robots leuk?")
     }
 }
+
