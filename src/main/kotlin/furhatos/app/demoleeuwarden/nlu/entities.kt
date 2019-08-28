@@ -59,8 +59,3 @@ class ListOfSingRobot : EnumEntity() {
     }
 }
 
-class ListOfJokeRobot : EnumEntity() {
-    override fun getEnum(lang: Language): List<String> {
-        return listOf("grap", "mop")
-    }
-}
