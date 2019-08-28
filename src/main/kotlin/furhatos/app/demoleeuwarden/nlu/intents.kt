@@ -66,7 +66,8 @@ class NameNeedRobot : Intent() {
 
     override fun getExamples(lang: Language): List<String> {
         return listOf(
-                "test test test"
+                "test test test test test"
+        // Werkt dit nu wel of niet?
 
         )
     }
