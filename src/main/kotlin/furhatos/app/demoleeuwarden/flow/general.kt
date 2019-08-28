@@ -9,6 +9,7 @@ val Idle: State = state {
     init {
         furhat.setVoice(Language.DUTCH, Gender.MALE) // setVoice to Dutch and Male voice
         furhat.setTexture("Geremy") // Set mask to Geremy (Male with beard)
+        furhat.setInputLanguage(Language.DUTCH) // Input language to Dutch
         if (users.count > 0) {
             furhat.attend(users.random)
             goto(Aanspreek)

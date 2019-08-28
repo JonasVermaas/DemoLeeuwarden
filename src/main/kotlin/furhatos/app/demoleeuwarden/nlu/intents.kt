@@ -29,7 +29,7 @@ class NameRobotIntent : Intent() {
     override fun getExamples(lang: Language): List<String> {
         return listOf(
                 "@namerobot", "wie ben jij", "hoe @namerobot jij", "hoe kan ik jou @namerobot", "hoe @namerobot ik jou",
-                "hoe wordt jij @namerbot", "hoe wordt je normaal @namerobot", "hoe kan ik jou @namerobot",
+                "hoe wordt jij @namerobot", "hoe wordt je normaal @namerobot", "hoe kan ik jou @namerobot",
                 "hoe wordt je @namerobot", "wat is jou @namerobot", "welke @namerobot heb jij", "wat is je @namerobot",
                 "hoe spreek ik jou aan"
                 )

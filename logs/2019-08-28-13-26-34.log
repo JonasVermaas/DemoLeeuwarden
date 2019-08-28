@@ -1,0 +1,7 @@
+13:26:36 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.1.176:1932
+13:26:37 [DemoleeuwardenSkill] INFO  DemoleeuwardenSkill:173 - Starting skill
+13:26:42 [DemoleeuwardenSkill] WARN  FurhatEventWrapper:316 - Could not find voice: ? (nl-NL) - Unknown
+13:26:42 [Thread-Attention] WARN  Flow: 94 - Flow unresponsive, 4010 ms since last event poll
+13:26:42 [Thread-Facial Reactions] WARN  Flow: 94 - Flow unresponsive, 4081 ms since last event poll
+13:26:46 [pool-3-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @namerbot in NameRobotIntent
+13:27:28 [EventSystem] INFO  DemoleeuwardenSkill:190 - Terminating skill

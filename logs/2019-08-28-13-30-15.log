@@ -1,0 +1,6 @@
+13:30:16 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.1.176:1932
+13:30:18 [DemoleeuwardenSkill] INFO  DemoleeuwardenSkill:173 - Starting skill
+13:30:22 [DemoleeuwardenSkill] WARN  FurhatEventWrapper:316 - Could not find voice: ? (nl-NL) - Unknown
+13:30:22 [Thread-Facial Reactions] WARN  Flow: 94 - Flow unresponsive, 3836 ms since last event poll
+13:30:22 [Thread-Attention] WARN  Flow: 94 - Flow unresponsive, 3806 ms since last event poll
+13:30:55 [EventSystem] INFO  DemoleeuwardenSkill:190 - Terminating skill

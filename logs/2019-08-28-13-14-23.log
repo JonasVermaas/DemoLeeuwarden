@@ -1,0 +1,4 @@
+13:14:23 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.1.176:1932
+13:14:23 [DemoleeuwardenSkill] INFO  DemoleeuwardenSkill:173 - Starting skill
+13:15:31 [pool-3-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @namerbot in NameRobotIntent
+13:19:03 [EventSystem] INFO  DemoleeuwardenSkill:190 - Terminating skill
