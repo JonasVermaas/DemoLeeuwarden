@@ -3,24 +3,60 @@ package furhatos.app.demoleeuwarden.flow
 import furhatos.nlu.common.*
 import furhatos.flow.kotlin.*
 import furhatos.app.demoleeuwarden.nlu.*
+import sun.security.krb5.internal.LastReqEntry
 
-val Start : State = state(Interaction) {
+val Aanspreek : State = state(TerugNaarState) {
 
     onEntry {
-        furhat.ask("Hallo daar. Vind je robots leuk?")
+        furhat.say{
+            random {
+                + "Pppssst, jij daar! Verzekering kopen?"
+                + "Welkom bij Achmea, in het mooie Leeuwarden"
+                + "Hi Collega, It giet Oan"
+                + "Teteteteddd innovatie evenement tijd"
+            }
+        }
+        goto(VraagAanRobot)
     }
 
-    onResponse<YesIntent>{
-        furhat.say("I like humans.")
-    }
+}
 
-    onResponse<NoIntent>{
-        furhat.say("That's sad.")
+val VraagAanRobot :State = state (IkWeetNiet) {
+
+    onEntry {
+        furhat.ask {
+            random {
+                + "Collega, je kan mij een aantal vragen stellen"
+                + "Wat wil je graag over mij te weten komen?"
+                + "Check het lijstje hiernaast, en vraag maar raak"
+                + "Je kan me gerust een vraag stellen"
+                + "Nou kom maar op met die brandende vraag"
+            }
+        }
+
     }
 
     onReentry {
-        // Create reEntry such that the flow can go back from general.kt
-        furhat.ask("Hallo daar. Vind je robots leuk?")
+        furhat.ask {
+            random {
+                + "Collega, je kan mij een aantal vragen stellen"
+                + "Wat wil je graag over mij te weten komen?"
+                + "Check het lijstje hiernaast, en vraag maar raak"
+                + "Je kan me gerust een vraag stellen"
+                + "Nou kom maar op met die brandende vraag"
+            }
+        }
     }
-}
 
+    onResponse<NameRobotIntent> {
+        furhat.say {
+            random {
+                + "Fred"
+                + "Fred de Robot"
+                + "Fred uw eerste E I collega"
+                + "Voor nu Fred, maar noem mij zoals jij wilt schat"
+            }
+        }
+    }
+
+}

@@ -41,7 +41,11 @@ class NameWorkRobot : Intent() {
 
     override fun getExamples(lang: Language): List<String> {
         return listOf(
-                "@workrobot", "wat @workrobot bij Achmea" , "wat voor @workrobot "
+                "@workrobot", "wat @workrobot jij bij Achmea" , "wat @workrobot je bij Achmea" ,
+                "wat voor @workrobot doe je " , "wat voor @workrobot doe jij " , "welk @workrobot doe je",
+                "welk @workrobot doe jij", "wat voor @workrobot doe je ", "wat voor @workrobot doe jij ",
+                "welke @workrobot heb je", "wat is je @workrobot "
+
         )
     }
 }
