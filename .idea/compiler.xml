@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="DemoLeeuwarden.main" target="1.8" />
       <module name="DemoLeeuwarden.test" target="1.8" />
+      <module name="DemoLeeuwardenSept.main" target="1.8" />
+      <module name="DemoLeeuwardenSept.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

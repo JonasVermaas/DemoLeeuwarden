@@ -3,21 +3,35 @@ package furhatos.app.demoleeuwarden.flow
 import furhatos.nlu.common.*
 import furhatos.flow.kotlin.*
 import furhatos.app.demoleeuwarden.nlu.*
+import furhatos.gestures.Gestures
 
 val Aanspreek : State = state(TerugNaarState) {
 
+    var time = 0
+
+    onTime(delay=4000)  {
+        time ++
+    }
+
     onEntry {
-        furhat.say{
-            random {
-                + "Pppssst, jij daar! Verzekering kopen?"
-                + "Welkom bij Achmea, in het mooie Leeuwarden"
-                + "Hi Collega, It giet Oan"
-                + "Teteteteddd innovatie evenement tijd"
-                + "Hallo daar"
+        when (time) {
+
+            1 -> goto(VraagAanRobot)
+            else -> {
+
+                furhat.say{
+                    random {
+                        + "Pppssst, jij daar! Verzekering kopen?"
+                        + "Welkom bij Achmea, in het mooie Leeuwarden"
+                        + "Hi Collega, It giet Oan"
+                        + "Teteteteddd innovatie evenement tijd"
+                    }
+                }
+                goto(VraagAanRobot)
             }
         }
-        goto(VraagAanRobot)
     }
+
 
 }
 
