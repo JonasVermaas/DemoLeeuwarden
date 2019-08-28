@@ -28,7 +28,7 @@ val VraagAanRobot :State = state (IkWeetNiet) {
             random {
                 + "Collega, je kan mij een aantal vragen stellen"
                 + "Wat wil je graag over mij te weten komen?"
-                + "Check het lijstje hiernaast, en vraag maar raak"
+                + "Bekijk het vragenlijstje hiernaast, en vraag maar raak"
                 + "Je kan me gerust een vraag stellen"
                 + "Nou kom maar op met die brandende vraag"
             }
@@ -41,7 +41,7 @@ val VraagAanRobot :State = state (IkWeetNiet) {
             random {
                 + "Collega, je kan mij een aantal vragen stellen"
                 + "Wat wil je graag over mij te weten komen?"
-                + "Check het lijstje hiernaast, en vraag maar raak"
+                + "Heb je het lijstje hiernaast gezien?"
                 + "Je kan me gerust een vraag stellen"
                 + "Nou kom maar op met die brandende vraag"
             }

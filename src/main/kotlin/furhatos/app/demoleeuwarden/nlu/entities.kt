@@ -26,3 +26,28 @@ class ListOfWorkRobot : EnumEntity() {
         return listOf("doe", "werk", "werkzaamheden", "titel")
     }
 }
+
+class ListOfHomeRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("vandaan", "land", "geboren", "gebouwd", "woonplaats", "geboorteplaats")
+    }
+}
+
+class ListOfAchmeaRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("aangeschaft", "gekocht")
+    }
+}
+
+class ListOfDrinkRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("drinken", "drankje", "bier", "wijn", "koffie", "thee", "cappucino")
+    }
+}
+
+class ListOfFilmRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("film", "bioscoop")
+    }
+}
+

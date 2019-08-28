@@ -49,3 +49,14 @@ class NameWorkRobot : Intent() {
         )
     }
 }
+
+class NameHomeRobot : Intent() {
+    var homerobot : ListOfHomeRobot? = null
+
+    override fun getExamples(lang: Language): List<String> {
+        return listOf(
+                "waar kom je @homerobot", "uit welk @homerobot kom je", "waar ben je @homerobot", "wat is je @homerobot"
+
+        )
+    }
+}
