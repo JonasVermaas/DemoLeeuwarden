@@ -3,7 +3,6 @@ package furhatos.app.demoleeuwarden.flow
 import furhatos.nlu.common.*
 import furhatos.flow.kotlin.*
 import furhatos.app.demoleeuwarden.nlu.*
-import sun.security.krb5.internal.LastReqEntry
 
 val Aanspreek : State = state(TerugNaarState) {
 
@@ -14,6 +13,7 @@ val Aanspreek : State = state(TerugNaarState) {
                 + "Welkom bij Achmea, in het mooie Leeuwarden"
                 + "Hi Collega, It giet Oan"
                 + "Teteteteddd innovatie evenement tijd"
+                + "Hallo daar"
             }
         }
         goto(VraagAanRobot)
