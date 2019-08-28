@@ -1,0 +1,7 @@
+13:41:29 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.1.176:1932
+13:41:30 [DemoleeuwardenSkill] INFO  DemoleeuwardenSkill:173 - Starting skill
+13:41:34 [Thread-Attention] WARN  Flow: 94 - Flow unresponsive, 2957 ms since last event poll
+13:41:34 [Thread-Facial Reactions] WARN  Flow: 94 - Flow unresponsive, 3008 ms since last event poll
+13:41:35 [ErrorLoggingThread] ERROR DemoleeuwardenSkill:441 - Flow - EventSystem - A flow's queue is full, could not add furhatos.event.monitors.MonitorAttend
+Flow - EventSystem - A flow's queue is full, could not add furhatos.event.actions.ActionGaze
+

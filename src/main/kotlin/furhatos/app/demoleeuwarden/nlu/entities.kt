@@ -49,7 +49,7 @@ class ListOfDrinkRobot : EnumEntity() {
 
 class ListOfFilmRobot : EnumEntity() {
     override fun getEnum(lang: Language): List<String> {
-        return listOf("film", "serie", "filmpje", "video", "netflix", "youtubu")
+        return listOf("film", "serie", "filmpje", "video", "netflix", "youtube")
     }
 }
 
