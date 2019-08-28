@@ -33,11 +33,13 @@ class ListOfHomeRobot : EnumEntity() {
     }
 }
 
-class ListOfAchmeaRobot : EnumEntity() {
+class ListOfNeedRobot : EnumEntity() {
     override fun getEnum(lang: Language): List<String> {
         return listOf("aangeschaft", "gekocht")
     }
 }
+
+
 
 class ListOfDrinkRobot : EnumEntity() {
     override fun getEnum(lang: Language): List<String> {
@@ -47,7 +49,18 @@ class ListOfDrinkRobot : EnumEntity() {
 
 class ListOfFilmRobot : EnumEntity() {
     override fun getEnum(lang: Language): List<String> {
-        return listOf("film", "bioscoop")
+        return listOf("film", "serie", "filmpje", "video", "netflix", "youtubu")
     }
 }
 
+class ListOfSingRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("zing", "zingen", "liedje")
+    }
+}
+
+class ListOfJokeRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("grap", "mop")
+    }
+}
