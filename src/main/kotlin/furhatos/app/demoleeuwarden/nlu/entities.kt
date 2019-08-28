@@ -14,3 +14,15 @@ class ListOfYes : EnumEntity() {
         return listOf("ja")
     }
 }
+
+class ListOfNameRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("heet", "naam", "noemem", "noem", "genoemd", "aangesproken", "aanspreken")
+    }
+}
+
+class ListOfWorkRobot : EnumEntity() {
+    override fun getEnum(lang: Language): List<String> {
+        return listOf("doe", "werk", "werkzaamheden", "titel")
+    }
+}
