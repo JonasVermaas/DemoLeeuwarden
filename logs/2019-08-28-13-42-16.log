@@ -1,0 +1,4 @@
+13:42:17 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.1.176:1932
+13:42:17 [DemoleeuwardenSkill] INFO  DemoleeuwardenSkill:173 - Starting skill
+13:42:20 [Thread-Facial Reactions] WARN  Flow: 94 - Flow unresponsive, 2742 ms since last event poll
+13:42:20 [Thread-Attention] WARN  Flow: 94 - Flow unresponsive, 2745 ms since last event poll

@@ -7,14 +7,28 @@ import furhatos.gestures.Gestures
 
 val Aanspreek : State = state(TerugNaarState) {
 
-    var time = 0
+/*
 
-    onTime(delay=4000)  {
+var time = 0
+
+    onTime(delay=1000)  {
         time ++
-    }
+    }*/
 
     onEntry {
-        when (time) {
+
+        furhat.say{
+            random {
+                + "Pppssst, jij daar! Verzekering kopen?"
+                + "Welkom bij Achmea, in het mooie Leeuwarden"
+                + "Hi Collega, It giet Oan"
+                + "Teteteteddd innovatie evenement tijd"
+            }
+        }
+
+        goto(VraagAanRobot)
+
+       /* when (time) {
 
             1 -> goto(VraagAanRobot)
             else -> {
@@ -29,7 +43,7 @@ val Aanspreek : State = state(TerugNaarState) {
                 }
                 goto(VraagAanRobot)
             }
-        }
+        }*/
     }
 
 
